@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:local_notification/awesome_notifications/screens/second_screen.dart';
 import 'package:local_notification/awesome_notifications/service/awesome_notification_service.dart';
+import 'package:local_notification/flutter_local_notifications/home_screen.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       navigatorKey: navigatorKey,
       debugShowCheckedModeBanner: false,
-      home: SecondScreen(),
+      home: HomeScreen(),
     );
   }
 }

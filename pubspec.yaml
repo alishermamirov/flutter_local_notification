@@ -38,6 +38,7 @@ dependencies:
   flutter_local_notifications: ^17.2.2
   awesome_notifications: ^0.9.3+1
   awesome_notifications_core: ^0.9.3
+  rename: ^3.0.2
 
 dev_dependencies:
   flutter_test:
