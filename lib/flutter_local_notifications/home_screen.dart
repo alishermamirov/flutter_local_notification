@@ -14,7 +14,9 @@ class HomeScreen extends StatelessWidget {
         children: [
           TextButton(
               onPressed: () {
-                NotificationService().showNotification(
+                NotificationService().showPrayerNotification(
+                  duration: Duration(seconds: 5),
+                  id: 1,
                   body: "bu boyd",
                   title: "bu title",
                 );

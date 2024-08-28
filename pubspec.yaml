@@ -40,6 +40,9 @@ dependencies:
   awesome_notifications_core: ^0.9.3
   rename: ^3.0.2
 
+  rxdart: ^0.28.0
+  timezone: ^0.9.4
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
